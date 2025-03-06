@@ -1,0 +1,58 @@
+## 忽略 Visual Studio 临时文件、生成结果和 NuGet 依赖项 ##
+
+# 编译生成的二进制文件和临时文件
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 用户特定目录和文件
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 生成结果和自动构建目录
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet 包和缓存
+.nuget/
+*.nupkg
+nuget.exe
+nuget.config
+packages/
+
+# 单元测试临时结果
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# IDE 杂项文件
+*.DotSettings.user
+_ReSharper.Caches/
+
+# 其他杂项文件
+*.cache
+*.pidb
+*.ilk
+*.pdb
+*.specflow.json
+
+# 自动生成的文件
+Generated\ Files/
+
+# 项目引用和旧格式文件
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.wixproj.user
+*.db
+*.jfm
