@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication.csproj", "{8B993E30-C4C0-4A5C-9A46-528FE5F8922A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{9FA3D6BD-1EC1-3BA5-80CB-CE02773A58D5}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+		Class2.cs = Class2.cs
+		Class3.cs = Class3.cs
+		Class4.cs = Class4.cs
+		Class5.cs = Class5.cs
+		Customer.cs = Customer.cs
+		OrderProfile.cs = OrderProfile.cs
+		Product.cs = Product.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B993E30-C4C0-4A5C-9A46-528FE5F8922A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B993E30-C4C0-4A5C-9A46-528FE5F8922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B993E30-C4C0-4A5C-9A46-528FE5F8922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B993E30-C4C0-4A5C-9A46-528FE5F8922A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596316E8-398A-4B4F-9F01-5AF17B651498}
+	EndGlobalSection
+EndGlobal
